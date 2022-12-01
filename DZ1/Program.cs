@@ -27,3 +27,9 @@ if (C>max) max = C;
 Console.WriteLine("Максимальное число = " + max);
 
 */
+/*
+Console.Write("Введите число ");
+int A = Convert.ToInt32(Console.ReadLine());
+if (A % 2 == 0) Console.WriteLine("четное число");
+else Console.WriteLine("нечетное");
+*/
