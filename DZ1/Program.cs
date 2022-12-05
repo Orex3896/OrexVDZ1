@@ -33,3 +33,16 @@ int A = Convert.ToInt32(Console.ReadLine());
 if (A % 2 == 0) Console.WriteLine("четное число");
 else Console.WriteLine("нечетное");
 */
+
+Console.WriteLine("Введите число ");
+int n = Convert.ToInt32(Console.ReadLine());
+int current = 1;
+while (current <= n)
+   
+    {   
+        if (current %2 == 0)
+        {
+        Console.Write(current + " ");   
+        }
+        current++;
+    }
